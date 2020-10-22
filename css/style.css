@@ -1,13 +1,24 @@
+@import url('/fonts/Roboto-Bold.ttf');
+
 html, body{
     margin: 0 auto;
     height: 100%;
 }
 
-.header-bg-color{
-    background-color: #f1cbff;
+.header-bg-black{
     height: 50px;
     font-size: 28px;
     text-align: center;
+    background-color: black;
+    width: 50%;
+}
+
+.header-bg-white{
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
 }
 
 p {
@@ -17,13 +28,27 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.footer-bg-color{
-    background-color: #f1cbff;
+.footer-bg-black{
     height: 50px;
     font-size: 28px;
     text-align: center;
+    background-color: black;
+    width: 50%;
+}
+
+.footer-bg-white{
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+}
+
+.header-footer-flex{
+    display: flex;
 }
 
 .container {
